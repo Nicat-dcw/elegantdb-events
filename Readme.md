@@ -9,7 +9,7 @@
 You can install the `elegantdb` module using npm:
 
 ```bash
-npm install elegantdb
+npm install @elegantdb/events
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install elegantdb
 Here's how you can use the `ElegantDB EventEmitter` in your project:
 
 ```javascript
-const { EventEmitter } = require('elegantdb');
+const { EventEmitter } = require('@elegantdb/events');
 
 // Create a new instance of ElegantDB EventEmitter
 const emitter = new EventEmitter();
