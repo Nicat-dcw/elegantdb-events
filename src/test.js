@@ -3,7 +3,7 @@ import EventEmitter from './index.js';
 const myEmitter = new EventEmitter();
 
 const greetListener = name => {
-  console.log(`Merhaba, ${name}!`);
+  console.log(`Merhaba, ${name}!.`);
 };
 
 async function get() { 
