@@ -7,7 +7,6 @@
   "scripts": {
     "test": "node ."
   },
-  "exports": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nicat-dcw/elegantdb-events.git"
