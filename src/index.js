@@ -6,7 +6,6 @@ class EventEmitter {
      */
     this.events = {};
   }
-
   /**
    * Register an event listener for the specified event.
    * @param {string} event - The name of the event.
