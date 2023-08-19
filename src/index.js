@@ -38,7 +38,9 @@ class EventEmitter {
   emit(event, ...args) {
   const listeners = this.events[event] || [];
   for (const listener of listeners) {
-    listener(...args);
+    if (typeof listener === 'function') {
+      listener(...args);
+    }
   }
 }
 
