@@ -1,5 +1,4 @@
 
-```markdown
 # ElegantDB EventEmitter
 
 `ElegantDB EventEmitter` is a lightweight and simple event emitter module designed specifically for the `elegantdb` module.
